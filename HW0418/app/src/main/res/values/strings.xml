@@ -8,5 +8,7 @@
     <string name="child">孩童票（250)</string>
     <string name="student">學生票（400)</string>
     <string name="sheet">張數</string>
+    <string name="quantity">數量</string>
     <string name="send">送出</string>
+
 </resources>

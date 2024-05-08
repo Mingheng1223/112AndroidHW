@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 
     ImageView img_burger,img_fries,img_coffee,img_drink,img_soup;
     private CheckBox burger,fries,coffee,softdrink,soup;
+    int[] imgfood={R.id.output1,R.id.output2,R.id.output3,R.id.output4,R.id.output5};
     private int[] chkfood = {R.id.chkburger,R.id.chkfries,R.id.chkcoffee,R.id.chkdrink,R.id.chksoup};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,13 +41,13 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     @Override
     public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
 
-        int id=compoundButton.getId();
+       int id=compoundButton.getId();
         if(id==R.id.chkburger){
             if(isChecked){
                 img_burger.setVisibility(View.VISIBLE);
             }
             else {
-                img_burger.setVisibility(View.INVISIBLE);
+                img_burger.setVisibility(View.GONE);
             }
         }
         if(id==R.id.chkfries){
@@ -54,14 +55,14 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
                 img_fries.setVisibility(View.VISIBLE);
             }
             else{
-                img_fries.setVisibility(View.INVISIBLE);
+                img_fries.setVisibility(View.GONE);
             }
         }
         if(id==R.id.chkcoffee) {
             if (isChecked) {
                 img_coffee.setVisibility(View.VISIBLE);
             } else {
-                img_coffee.setVisibility(View.INVISIBLE);
+                img_coffee.setVisibility(View.GONE);
             }
         }
         if(id==R.id.chkdrink){
@@ -69,14 +70,14 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
                 img_drink.setVisibility(View.VISIBLE);
             }
             else{
-                img_drink.setVisibility(View.INVISIBLE);
+                img_drink.setVisibility(View.GONE);
             }
         }
         if(id==R.id.chksoup) {
             if (isChecked) {
                 img_soup.setVisibility(View.VISIBLE);
             } else {
-                img_soup.setVisibility(View.INVISIBLE);
+                img_soup.setVisibility(View.GONE);
             }
         }
     }

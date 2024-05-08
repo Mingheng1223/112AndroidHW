@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HW0502</string>
+    <string name="burger">漢堡</string>
+    <string name="coffee">咖啡</string>
+    <string name="frenchFries">薯條</string>
+    <string name="softDrink">飲料</string>
+    <string name="soup">湯</string>
+</resources>

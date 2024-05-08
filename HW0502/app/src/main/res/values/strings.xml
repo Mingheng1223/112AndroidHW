@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">HW0502</string>
+    <string name="burger">burger</string>
+    <string name="coffee">coffee</string>
+    <string name="frenchFries">frenchFries</string>
+    <string name="softDrink">softDrink</string>
+    <string name="soup">soup</string>
+</resources>

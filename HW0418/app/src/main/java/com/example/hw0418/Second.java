@@ -7,15 +7,18 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class Second extends AppCompatActivity {
-
+    TextView result;
+    String str;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        TextView result=findViewById(R.id.tv_result);
+        result=findViewById(R.id.tv_result);
+
         Intent intent=getIntent();
-        String str=intent.getStringExtra("bill");
-        result.setText(str);
+        str=intent.getStringExtra("bill");
+        result.setText("您的訂票資訊\n"+str);
+
     }
 }

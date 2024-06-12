@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SPandLv</string>
+    <string-array name="order">
+        <item>主餐</item>
+        <item>附餐</item>
+        <item>飲料</item>
+    </string-array>
+</resources>
